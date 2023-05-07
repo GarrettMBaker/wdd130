@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&display=swap');
+:root {
+    --primary-color: rgb(38, 97, 156);
+    --secondary-color: rgb(65, 93, 67);
+    --accent1-color: rgb(252, 252, 252);
+    --accent2-color: rgb(0, 0, 0);
+
+    --heading-font: 'Bangers', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --nav-background-color: #415d43;
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color:var(--primary-color);
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+p {
+    padding: 25px;
+}
+.sociallinks {
+    text-decoration: none;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.hero {
+    position: relative;
+}
+article {
+    display: block;
+    position: absolute;
+    top:200px;
+    padding: 20px;
+    background: rgba(38, 97, 156, .8);
+}
+article img {
+    float: right;
+    max-width: 200px;
+}
+h1 {
+    display: block;
+    position: absolute;
+    top: 50px;
+    width:95.8%;
+    padding: 20px;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    color: var(--accent1-color);
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
